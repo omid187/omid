@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>فرم ثبت‌نام</title>
+  <style>
+    body {
+      font-family: 'Tahoma', sans-serif;
+      background-color: #f0f4f8;
+      margin: 0;
+      padding: 0;
+    }
+    .form-container {
+      max-width: 400px;
+      margin: 60px auto;
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+    h2 {
+      text-align: center;
+      color: #007BFF;
+      margin-bottom: 25px;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+      color: #333;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      box-sizing: border-box;
+    }
+    input[type="submit"] {
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      padding: 12px;
+      width: 100%;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    input[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+    .note {
+      text-align: center;
+      font-size: 14px;
+      color: #666;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <h2>فرم ثبت‌نام</h2>
+    <form action="#" method="post">
+      <label for="fullname">نام کامل:</label>
+      <input type="text" id="fullname" name="fullname" required>
+
+      <label for="email">ایمیل:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="password">رمز عبور:</label>
+      <input type="password" id="password" name="password" required>
+
+      <input type="submit" value="ثبت‌نام">
+    </form>
+    <p class="note">با ثبت‌نام، شما با شرایط و قوانین سایت موافقت می‌کنید.</p>
+  </div>
+</body>
+</html>
